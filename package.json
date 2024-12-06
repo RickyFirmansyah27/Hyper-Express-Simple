@@ -9,6 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run nodemon ./src/index",
+    "start": "bun run nodemon ./src/index",
     "build": "bun build ./src/index --outdir ./dist --target node",
     "deploy": "vercel --prod"
   },
